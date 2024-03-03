@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Outfit", sans-serif;;
+    font-family: "Outfit", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +35,7 @@ main li {
 }
 
 main img {
+    width: 540px;
     border-radius: 15px;
 }
 
@@ -102,7 +103,7 @@ hr {
 .nutrition-container table {
     border-collapse: collapse;
     width: 100%; 
-  }
+}
 
 .nutrition-container h2 {
     margin: 20px 0px;
@@ -123,4 +124,88 @@ hr {
 
 .nutrition-container tfoot td {
     border-bottom: none;
+}
+
+@media (max-width: 580px) {
+
+    body {
+        font-family: "Outfit", sans-serif;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(30, 54%, 90%);
+        height: 100vh;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .main-box {
+        width: 100%;
+        padding: 0px;
+        background-color: white;
+        border-radius: 0px;
+    }
+
+    main img {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .top-container h1 {
+        margin: 20px 20px;
+        font-family: "Young Serif", serif;
+        font-weight: 600;
+    }
+
+    .top-container p {
+        margin: 20px 20px;
+    }    
+
+    .main-box-preparation-time-container {
+        margin: auto;
+        width: 80%;
+        height: auto;
+        border-radius: 10px;
+        line-height: 25px;
+        background-color: hsl(330, 100%, 98%);
+    }
+
+    .ingredients-container h2 {
+        margin: 20px 20px;
+    }
+
+    .ingredients-container li {
+        margin-left: 40px;
+    }
+
+    .instructions-container {
+        width: auto;
+    }
+
+    .instructions-container h2 {
+        margin: 20px 20px;
+    }
+    
+    .instructions-container li {
+        margin-left: 40px;
+    }
+
+    .nutrition-container table {
+        margin-left: 30px;
+        border-collapse: collapse;
+        width: 80%; 
+    }
+    
+    .nutrition-container h2 {
+        margin: 20px 20px;
+    }
+
+    .nutrition-container p {
+        margin-left: 20px;
+    }
+    
+    .nutrition-container td {
+        padding: 10px 25px;
+    }
+    
 }
