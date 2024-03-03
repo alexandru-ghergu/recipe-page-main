@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.main-box {
+    width: 600px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+main h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+} 
+
+main li {
+    padding-left: 10px;
+}
+
+main img {
+    border-radius: 15px;
+}
+
+.top-container h1 {
+    margin: 20px 0px;
+    font-family: "Young Serif", serif;
+    font-weight: 600;
+}
+
+.main-box-preparation-time-container {
+    padding: 10px;
+    margin: 20px 0px;
+    width: 540px;
+    height: 120px;
+    border-radius: 10px;
+    line-height: 25px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.main-box-preparation-time-container h3 {
+    margin-left: 15px;
+    color: hsl(332, 51%, 32%);
+}
+
+.main-box-preparation-time-container li {
+    margin-left: 35px;
+}
+
+.main-box-preparation-time-container li::marker {
+    font-size: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-container h2 {
+    margin: 20px 0px;
+}
+
+.ingredients-container li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.ingredients-container li::marker {
+    font-size: 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-container h2 {
+    margin: 20px 0px;
+}
+
+.instructions-container li {
+    margin-left: 20px;
+}
+
+.instructions-container li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.nutrition-container table {
+    border-collapse: collapse;
+    width: 100%; 
+  }
+
+.nutrition-container h2 {
+    margin: 20px 0px;
+}
+
+.nutrition-container td {
+    padding: 10px 25px;
+}
+
+.nutrition-container td {
+    border-bottom: 1px solid gray;
+}
+
+.nutrition-container td:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.nutrition-container tfoot td {
+    border-bottom: none;
+}
