@@ -15,6 +15,7 @@ body {
     height: 100vh;
     font-size: 13px;
     line-height: 20px;
+    caret-color: transparent;
 }
 
 .main-box {
@@ -187,11 +188,11 @@ hr {
     }
     
     .instructions-container li {
-        margin-left: 40px;
+        margin: 0px 40px;
     }
 
     .nutrition-container table {
-        margin-left: 30px;
+        margin: auto;
         border-collapse: collapse;
         width: 80%; 
     }
@@ -201,6 +202,7 @@ hr {
     }
 
     .nutrition-container p {
+        width: 300px;
         margin-left: 20px;
     }
     
