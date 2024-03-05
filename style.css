@@ -12,14 +12,14 @@ body {
     align-items: center;
     justify-content: center;
     background-color: hsl(30, 54%, 90%);
-    height: 100vh;
     font-size: 13px;
     line-height: 20px;
     caret-color: transparent;
 }
 
 .main-box {
-    width: 600px;
+    margin: 60px 0px;
+    width: 480px;
     padding: 30px;
     background-color: white;
     border-radius: 20px;
@@ -36,20 +36,20 @@ main li {
 }
 
 main img {
-    width: 540px;
+    width: 420px;
     border-radius: 15px;
 }
 
 .top-container h1 {
     margin: 20px 0px;
     font-family: "Young Serif", serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .main-box-preparation-time-container {
     padding: 10px;
     margin: 20px 0px;
-    width: 540px;
+    width: 420px;
     height: 120px;
     border-radius: 10px;
     line-height: 25px;
@@ -130,20 +130,13 @@ hr {
 @media (max-width: 580px) {
 
     body {
-        font-family: "Outfit", sans-serif;
         display: block;
-        align-items: center;
-        justify-content: center;
-        background-color: hsl(30, 54%, 90%);
-        height: 100vh;
-        font-size: 13px;
-        line-height: 20px;
     }
 
     .main-box {
+        margin: 0px;
         width: 100%;
         padding: 0px;
-        background-color: white;
         border-radius: 0px;
     }
 
@@ -154,8 +147,7 @@ hr {
 
     .top-container h1 {
         margin: 20px 20px;
-        font-family: "Young Serif", serif;
-        font-weight: 600;
+        line-height: 25px;
     }
 
     .top-container p {
@@ -166,9 +158,6 @@ hr {
         margin: auto;
         width: 80%;
         height: auto;
-        border-radius: 10px;
-        line-height: 25px;
-        background-color: hsl(330, 100%, 98%);
     }
 
     .ingredients-container h2 {
@@ -193,7 +182,6 @@ hr {
 
     .nutrition-container table {
         margin: auto;
-        border-collapse: collapse;
         width: 80%; 
     }
     
