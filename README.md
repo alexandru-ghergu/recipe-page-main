@@ -9,7 +9,7 @@ This is my first solution to the [Recipe page challenge on Frontend Mentor](http
 
 ## 🎥 Live WebSite
 
-- Live Site URL: [Add live site URL here](https://alexandru-ghergu.github.io/recipe-page-main/)
+- [Live site URL](https://alexandru-ghergu.github.io/recipe-page-main/)
 
 ## 🪄 Technologies
 
